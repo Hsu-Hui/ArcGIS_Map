@@ -1,0 +1,298 @@
+﻿@charset "utf-8";
+.map_icon {
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+}
+.map_icon1 {
+    width: 35px;
+    height: 25px;
+    background-repeat: no-repeat;
+}
+.icon {
+    width: 40px;
+    border: 0px;
+    background-color: #0070C0;
+}
+.topmenu ul li a {
+    padding: 0;
+    display: block;
+    line-height: 35px;
+    text-align:center;
+    text-decoration:none;
+}
+    /*.topmenu ul li a:hover {
+        background-color: #0070C0;
+        opacity: 0.7;
+    }*/
+    .topmenu ul li a:focus {
+        background-color: white;
+        opacity: 0.3;
+    }
+
+.body-section {
+    width: 100%;
+    background-color: #0070C0;
+    position:relative;
+}
+.map_title {
+    font-weight: bold;
+    width: 250px;
+    color: white;
+    border: 0px;
+    background-color: #0070C0;
+    padding: 0;
+    display: block;
+    line-height: 35px;
+    text-align: center;
+}
+.link-top {
+    width: 220px;
+    height: 1px;
+    border-top: solid #888888 1px;
+}
+.layer_icon td{
+    padding:2px;
+}
+.tele_pipeline {
+    width: 25px;
+    height: 1px;
+    border-top: solid rgb(0,255,0) 1px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.tele_pole {
+    width: 25px;
+    height: 25px;
+    border-radius: 999em;
+    background-color: white;
+    border: solid rgb(0,255,0) 1px;
+    float: left;
+    margin-right: 5px;
+}
+.electric_pole {
+    width: 25px;
+    height: 25px;
+    border-radius: 999em;
+    background-color: white;
+    border: solid rgb(255,127,0) 1px;
+    float: left;
+    margin-right: 5px;
+}
+.electric_pipeline {
+    width: 25px;
+    height: 1px;
+    border-top: solid rgb(255,127,0) 1px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.water_pipeline {
+    width: 25px;
+    height: 1px;
+    border-top: solid rgb(0,255,255) 1px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.sewage_pipeline {
+    width: 25px;
+    height: 1px;
+    border-top: solid rgb(127,0,0) 1px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.oil_pipeline {
+    width: 25px;
+    height: 1px;
+    border-top: solid rgb(255,0,255) 1px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.gas_pipeline {
+    width: 25px;
+    height: 1px;
+    border-top: solid rgb(255,0,0) 1px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.internet_pipeline {
+    width: 25px;
+    height: 1px;
+    border-top: solid rgb(0,0,255) 1px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.polygon {
+    width: 25px;
+    height: 25px;
+    border: solid black 1px;
+    float: left;
+    margin-right: 5px;
+    background-color:red;
+}
+/*關閉按鈕*/
+.close_btn {
+    cursor: pointer;
+    color: black;
+    border: 1px solid #DDDDDD;
+    border-radius: 30px;
+    background: #DDDDDD;
+    font-size: 31px;
+    display: inline-block;
+    line-height: 0px;
+    padding: 11px 3px;
+    margin-top: 3px;
+    text-decoration: none;
+}
+    .close_btn:link {
+        content: "×";
+        text-decoration: none;
+    }
+    .close_btn:before {
+        content: "×";
+        text-decoration: none;
+    }
+    .close_btn:visited {
+        color: black;
+        text-decoration: none;
+    }
+    .close_btn:hover {
+        content: "×";
+        color: white;
+        text-decoration: none;
+    }
+    .close_btn:active {
+        color: white;
+        text-decoration: none;
+    }
+    .close_btn:after {
+        text-decoration: none;
+    }
+
+.wid_title {
+    margin-left:15px;
+    float:left;
+    margin-top:5px;
+}
+.ddl {
+    float:left;
+    margin:10px;
+    width:230px;
+    height:30px;
+}
+.village_lab {
+    margin:3px;
+    float:left;
+}
+
+.con class {
+    width: 245px;
+    height: 30px;
+    float:left;
+}
+
+.button {
+    background-color: white;
+    border: 1px solid white;
+    padding: 1px 5px 1px 5px;
+    margin: 3px;
+    float: left;
+    text-decoration: none;
+    color:black;
+}
+    .button:hover {
+        border: 1px solid #0080FF;
+        float: left;
+        text-decoration: none;
+    }
+    .button:active {
+        border: 1px solid #0080FF;
+        float: left;
+        text-decoration: none;
+    }
+    .button:after {
+        text-decoration: none;
+        border: 1px solid #0080FF;
+    }
+    .button:focus {
+        text-decoration: none;
+        border: 1px solid #0080FF;
+    }
+
+
+.red {
+    text-decoration: none;
+    border: 1px solid #0080FF;
+    color: black;
+}
+
+
+.location_btn {
+    margin-left: 90px;
+    margin-top: 5px;
+}
+.xy_txt {
+    float: left;
+    margin-left: 5px;
+    width: 230px;
+    height: 30px;
+}
+.switch class{
+    width:245px;
+    height:30px;
+
+}
+.map_switch {
+    /*border: 1px solid white;*/
+    width:235px;
+}
+        .map_switch:active {
+            border: 2px solid #0070C0;
+        }
+    
+#distanceButton {
+    background-image: url(../Images/map_icon/線.PNG);
+    width:32px;
+    height:32px;
+    background-repeat:no-repeat;
+}
+#areaButton {
+    background-image: url(../Images/map_icon/面.PNG);
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+}
+
+.Road_loc {
+    width: 35px;
+    height: 45px;
+    border: 0;
+}
+.Road_view {
+    width: 35px;
+    height: 35px;
+    border: 0;
+}
+
+
+#Road_table th, #poi_table th {
+    font-size: 15px;
+    border-top: 1px #888888 solid;
+    border-bottom: 1px #888888 solid;
+    padding: 0px 0px;
+}
+
+#Road_table tr, #poi_table tr {
+    font-size: 15px;
+    border-bottom: 1px #888888 solid;
+    padding: 0px 0px
+}
+
+
+

@@ -1,0 +1,213 @@
+﻿html,
+body,
+#viewDiv {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+/*===測量工具start===*/
+#topbar {
+    background: #fff;
+    padding: 10px;
+}
+
+#switchMap {
+    background: #fff;
+    /*padding: 10px;*/
+}
+
+.action-button {
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid #d3d3d3;
+    color: #6e6e6e;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
+    .action-button:hover,
+    .action-button:focus {
+        background: #0079c1;
+        color: #e4e4e4;
+    }
+
+.action {
+    background: #0079c1;
+    color: #e4e4e4;
+}
+/*===測量工具end===*/
+
+/*===*/
+
+/*===*/
+.esri-search {
+    display: none;
+}
+
+.esri-print {
+    display: none;
+}
+
+
+/*==顯示列表=*/
+#info,
+#gridDisplay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /*height: 35%;*/
+    height: 25%;
+    background-color: lightgray;
+    border-color: grey;
+    width: 100%;
+    font-family: "Avenir Next W00", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    z-index: 91 !important;
+    height: 20% !important;
+}
+
+
+#grid {
+    height: 95% !important
+}
+
+#gridDisplay {
+    z-index: 80;
+}
+
+#info {
+    z-index: 90;
+    font-size: 16px;
+    padding-left: 20px;
+    height: 20% !important;
+}
+
+    #info * {
+        padding-right: 20px;
+    }
+
+.info {
+    line-height: 20px;
+    padding-left: 5px !important;
+}
+
+.dgrid-header,
+.dgrid-header-row {
+    background-color: #eee;
+    color: #57585a;
+}
+
+.dgrid-row-even {
+    background-color: #f7f8f8;
+}
+
+.dgrid-row-odd {
+    background-color: #efefef;
+}
+
+.dgrid-selected {
+    background: #b4daf5;
+}
+
+.dgrid-row {
+    border: none;
+}
+/*==顯示列表=*/
+
+@page {
+    size: 35.7cm 25cm;
+    margin: 5mm 5mm 5mm 5mm; /* change the margins as you want them to be. */
+}
+
+/*==左側縮合選單=*/
+#pipeList {
+    /*top: 18%;*/
+    /*left: 20px;*/
+    position: absolute;
+    z-index: 89;
+    background-color: white;
+    border-radius: 2px;
+    /*padding: 10px;*/
+    opacity: 1;
+    padding-left: 80px;
+    width: 350px;
+    height: 100%;
+    padding-bottom: 100px;
+}
+
+aside img {
+    width: 50px;
+    height: 30px;
+    z-index: 111111;
+}
+
+.page-main {
+    position: relative;
+    margin-top: 100px;
+}
+
+    .page-main > aside {
+        background-color: white;
+        width: 350px;
+        height: 500px;
+        top: 0;
+        left: -350px;
+        position: fixed;
+        margin-top: 35px;
+    }
+
+        .page-main > aside ul {
+            /*margin: 20px 10px;*/
+            /*padding-left: 80px;*/
+            /*top: 50px;*/
+            /*position: absolute;*/
+        }
+
+        .page-main > aside li {
+            /*margin: 0 0 20px;*/
+            /*list-style: none;
+                    position: static;*/
+            /*float:left;*/
+            /*width:170px;
+                    height:50px;*/
+        }
+
+            .page-main > aside li a
+            pointer-events :none;
+            ｝
+            .page-main > aside button {
+                background-color: white;
+                display: block;
+                position: absolute;
+                top: 150px;
+                left: 350px;
+                width: 52px;
+                height: 50px;
+                margin: 0;
+                padding: 0;
+                border: none;
+            }
+
+.qq {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 11.5px 17px 11.5px 0;
+    border-color: transparent #888888 transparent transparent;
+    margin-left: 90px;
+    background-color: white;
+    float: right;
+}
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
