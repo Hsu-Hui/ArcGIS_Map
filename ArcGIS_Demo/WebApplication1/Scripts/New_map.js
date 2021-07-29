@@ -597,7 +597,7 @@ function xy_Search() {
 }
 
 function switchmap() {
-    $("#base").css("border", "2px solid #0070C0");
+    $("#base").css("border", "2px solid #0e1217");
     var Latitude, Longitude;
     function getCenterPoint() {
         return map.extent.getCenter();
@@ -612,7 +612,7 @@ function switchmap() {
         baselayer.visible = true;
         Orthophoto.visible = false;
         map.basemap.baseLayers.items[0].visible = false;
-        $("#base").css("border", "2px solid #0070C0");
+        $("#base").css("border", "2px solid #0e1217");
         $("#ot").css("border", "1px solid white");
         $("#osm").css("border", "1px solid white");
     });
@@ -621,7 +621,7 @@ function switchmap() {
         Orthophoto.visible = true;
         map.basemap.baseLayers.items[0].visible = false;
         $("#base").css("border", "1px solid white");
-        $("#ot").css("border", "2px solid #0070C0");
+        $("#ot").css("border", "2px solid #0e1217");
         $("#osm").css("border", "1px solid white");
     });
     $(document).on('click', '#osm', function () {
@@ -630,7 +630,7 @@ function switchmap() {
         Orthophoto.visible = false;
         $("#base").css("border", "1px solid white");
         $("#ot").css("border", "2px solid white");
-        $("#osm").css("border", "2px solid #0070C0");
+        $("#osm").css("border", "2px solid #0e1217");
     });
 
 }

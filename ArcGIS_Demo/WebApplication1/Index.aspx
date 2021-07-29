@@ -169,13 +169,13 @@
                 <span id="Label4" class="wid_title">底圖切換</span><a href="#" class="close_btn" onclick="javascript:close_table();" style="margin-left: 145px;"></a>
             </div>
             <div id="base" style="width: 235px; height: 80px; margin: 5px; background-image: url(images/電子地圖-長.png);" onclick="javascript:switchmap();" class="map_switch">
-                <div style="background-color: white; opacity: 0.9; width: 100px; height: 20px; text-align: center; margin-left: 5px; color: #0070C0">電子地圖</div>
+                <div style="background-color: white; opacity: 0.9; width: 100px; height: 20px; text-align: center; margin-left: 5px; color: #0e1217">電子地圖</div>
             </div>
             <div id="ot" style="width: 235px; height: 80px; margin: 5px; background-image: url(images/正射影像-長.png);" onclick="javascript:switchmap();" class="map_switch">
-                <div style="background-color: white; opacity: 0.9; width: 100px; height: 20px; text-align: center; margin-left: 5px; color: #0070C0">正射影像</div>
+                <div style="background-color: white; opacity: 0.9; width: 100px; height: 20px; text-align: center; margin-left: 5px; color: #0e1217">正射影像</div>
             </div>
             <div id="osm" style="width: 235px; height: 80px; margin: 5px; background-image: url(images/openstreetmap-長.png);" onclick="javascript:switchmap();" class="map_switch">
-                <div style="background-color: white; opacity: 0.9; width: 100px; height: 20px; text-align: center; margin-left: 5px; color: #0070C0">openstreetmap</div>
+                <div style="background-color: white; opacity: 0.9; width: 100px; height: 20px; text-align: center; margin-left: 5px; color: #0e1217">openstreetmap</div>
             </div>
         </div>
         
