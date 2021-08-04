@@ -1,4 +1,4 @@
-# ArcGIS_Map
-ArcGIS_Map_Demo
+# ArcGIS Map Demo
 
-https://Hsu-hui.github.io/ArcGIS_Map/ArcGIS_Demo/WebApplication1/ArcGIS_Demo.html
+[Source](https://Hsu-hui.github.io/ArcGIS_Map/ArcGIS_Demo/WebApplication1/ArcGIS_Demo.html)
+
